@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 1.5em;
+    max-width: 390px;
+    max-height: 844px;
+    width: 390px;
+    height: 844px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    margin-top: 1em;
+   display: flex;
+}
+
+.header-text{
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.header-sub-text{
+    font-size: .8em;
+}
+
+.header-main-text{
+    font-weight: bolder;
+    letter-spacing: .1em;
+    font-size: 1.3em;
+}
+
+.search-icon{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    padding: 1em;
+    border-radius: 3em;
+}
+
+.navbar{
+    margin-top: 1.5em;
+    display: flex;
+    font-weight: bold;
+    overflow-x: scroll;
+}
+
+.nav-items{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: .7em;
+    margin-right: .5em;
+    border-radius: 1.5em;
+}
+
+.nav-items.active{
+    color: white;
+    background-color: black;
+}
+
+.card{
+    margin: 1em 0;
+    padding: 1em;
+    height: 12em;
+    border-radius: 1em;
+}
+
+.task-header{
+    display: flex;
+}
+
+
+.categories{
+    flex-basis: 95%;
+    display: flex;
+}
+
+.category-item{
+    font-size: .7em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: .5em 1em;
+    margin-right: .5em ;
+    border-radius: 1.2em;
+    border: 1px solid darkgray;
+    background-color: #c8cdd17e;
+}
+
+.edit-icon{
+    
+    font-size: 1.2em;
+}
+
+.task-main{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin:1em 0;
+}
+
+.task-bottom{
+    display: flex;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.74);
+
+}
+
+.date-time{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+}
+
+.date{
+    margin-bottom: .5em;
+}
+
+
+.add-item-btn{
+    position: fixed;
+    bottom: 3em;
+    left: 8em;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 1.5em;
+    padding: 1em;
+    letter-spacing: .2em;
+}
+
+.plus{
+    color: black;
+    background-color: white;
+    padding: .3em;
+    border-radius: .4em;
+}
+
+.add-task-container{
+    background-color: rgba(128, 128, 128, 0.075);
+
+}
+
+
+.input-fields{
+    display : flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.input-card{
+    margin: 1em 0;
+    padding: 1em;
+    height: 8em;
+    border-radius: 1em;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+
+.input-field{
+  background: rgba(128, 128, 128, 0.247);
+   outline: white;
+   margin-top: 1.5em;
+   border-radius: 10em;
+   height: 2.5em;
+   width: 100%;
+   padding: 1em;
+   border: 1px solid white;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+}
+
+.input-search-field{
+    background: rgba(128, 128, 128, 0.247);
+     outline: white;
+     margin-top: .5em;
+     border-radius: 10em;
+     height: 3.5em;
+     width: 90%;
+     padding: 1em;
+     border: 1px solid white;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     
+  }
+
+
+.input-header{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: capitalize;
+   
+}
+
+.task-type-container{
+    display: flex;
+    margin: 1em 0;
+    overflow-x: scroll;
+}
+
+.task-types{
+    justify-content: center;
+    padding: .5em 1em;
+    border-radius: 2em;
+    font-size: 1em;
+    margin-left: .3em;
+}
+
+.task-types:hover{
+    transition: .3s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+
+.selectedCategory{
+    color: white;
+    background-color: black;
+}
+
+.save-task{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 1em;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 5em;
+}
